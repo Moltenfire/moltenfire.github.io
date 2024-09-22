@@ -1401,26 +1401,26 @@ form {
 	}
 }
 
-// Owl 
-.owl-carousel .owl-controls .owl-dot {
-	span {
-		background: lighten($brand-black, 90%);
-		&:hover, &:focus {
-			background: lighten($brand-black, 80%);
-		}
-	}
-	&:hover, &:focus {
-		span {
-			background: lighten($brand-black, 80%);
-		}
-	}
-	&.active {
-		span {
-			background: transparent;
-			border: 2px solid $brand-primary;
-		}
-	}
-}
+// // Owl 
+// .owl-carousel .owl-controls .owl-dot {
+// 	span {
+// 		background: lighten($brand-black, 90%);
+// 		&:hover, &:focus {
+// 			background: lighten($brand-black, 80%);
+// 		}
+// 	}
+// 	&:hover, &:focus {
+// 		span {
+// 			background: lighten($brand-black, 80%);
+// 		}
+// 	}
+// 	&.active {
+// 		span {
+// 			background: transparent;
+// 			border: 2px solid $brand-primary;
+// 		}
+// 	}
+// }
 
 // off canvas
 #fh5co-offcanvas {

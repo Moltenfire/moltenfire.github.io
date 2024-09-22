@@ -198,7 +198,7 @@
 @mixin transition-duration($transition-duration...) {
   -webkit-transition-duration: $transition-duration;
           transition-duration: $transition-duration;
-}
+} 
 @mixin transition-timing-function($timing-function) {
   -webkit-transition-timing-function: $timing-function;
           transition-timing-function: $timing-function;
@@ -208,15 +208,4 @@
      -moz-transition: -moz-transform $transition;
        -o-transition: -o-transform $transition;
           transition: transform $transition;
-}
-
-
-// User select
-// For selecting text on the page
-
-@mixin user-select($select) {
-  -webkit-user-select: $select;
-     -moz-user-select: $select;
-      -ms-user-select: $select; // IE10+
-          user-select: $select;
 }
