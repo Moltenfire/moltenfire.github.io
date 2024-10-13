@@ -41,8 +41,7 @@ body {
     vertical-align: middle;
 }
 
-#events {
-    height: 1350px;
+.section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -50,10 +49,10 @@ body {
     width: 100%;
 }
 
-#events h2 {
+.section h2 {
     margin-bottom: 10x;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 1.5;
     font-family: "Sacramento", Arial, serif;
     margin: 0;
@@ -64,23 +63,28 @@ body {
     vertical-align: middle;
 }
 
+.section .spacer {
+    height: 100px;
+}
+
 #events .container {
     /* border: 2px solid yellow; */
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #events .box {
     border: 2px solid rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    width: 500px;
-    height:300px;
+    max-width: 450px;
 
     min-height: 1px;
     padding: 30px;
     margin: 15px;
     background-color: rgba(255,255,255,0.05);
+    flex: 1;
 }
 
 #events .box h3 {
@@ -111,4 +115,122 @@ body {
     color: rgba(255, 255, 255, 0.8);
     font-size: 16px;
     margin-top: 10px;
+}
+
+#events p {
+    color: white;
+}
+
+#events address {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#events span {
+    display: block
+}
+
+#events .map {
+    width: 75%;
+    height: 200px;
+}
+
+#food .container {
+    /* border: 2px solid yellow; */
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#food .course {
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-bottom: 40px;
+    text-align: left;
+    /* display: flex; */
+    /* justify-content: center; */
+    display: inline-block
+}
+
+#food ol {
+    color: white;
+
+    li {
+        /* list-style: none; */
+        position: relative;
+    }
+}
+
+#food h3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    color: white;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+    display: block;
+    letter-spacing: 2px;
+    opacity:initial;
+}
+
+#contact {
+    flex: 1;
+    color: black;
+}
+
+#contact h2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#contact .container {
+    /* border: 2px solid yellow; */
+    /* width: 100px; */
+    /* vertical-align: middle; */
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .box {
+    /* border: 2px solid red; */
+    max-width: 450px;
+
+    min-height: 1px;
+    padding: 30px;
+    margin: 15px;
+    /* background-color: rgba(255,255,255,0.05); */
+    flex: 1;
+}
+
+#contact ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+        position: relative;
+        &.phone {
+            &:before {
+                font-size: 23px;
+                font-family: 'icomoon';
+                content: "\e9f4";
+                padding-right: 20px;
+            }
+        }
+        &.email {
+            &:before {
+                font-size: 23px;
+                font-family: 'icomoon';
+                content: "\e9da";
+                padding-right: 20px;
+            }
+        }
+    }
 }
