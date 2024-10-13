@@ -1,0 +1,49 @@
+#main-header {
+    background-image: url('images/welcome_photo_narrow.jpg');
+    height: auto;
+}
+
+#main-header div {
+    height: 700px;
+    text-align: center;
+    text-align:center;
+    line-height:700px;
+    width:100%;
+    min-height: 700px
+}
+
+#main-header h1 {
+    padding-top: 260px;
+    font-size: 60px;
+}
+
+.section .spacer {
+    height: 40px;
+}
+
+#events .container {
+    display: inline-block;
+    margin: 0px
+}
+
+#food .container {
+    margin: 0px
+}
+
+#food .course {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#contact .container {
+    display: inline-block;
+    margin: 0px
+}
+
+#contact .box {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    flex: 0;
+    display: inline-block;
+}
