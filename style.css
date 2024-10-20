@@ -68,13 +68,29 @@ body {
 }
 
 #events .container {
-    /* border: 2px solid yellow; */
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
+
+#flags .container {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#flags .box {
+    max-width: 450px;
+    min-height: 1px;
+    padding: 30px;
+    margin: 15px;
+    flex: 1;
+}
+
 
 #events .box {
     border: 2px solid rgba(255, 255, 255, 0.5);

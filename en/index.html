@@ -1,144 +1,87 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 	<head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kasia & Jonathan Wedding</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="../css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="../css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="../css/bootstrap.css">
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 550px)" href="/style_smallscreen.css">
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="../css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s&libraries=maps,marker&v=beta" defer></script>
 
 	</head>
 	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html"></a></div>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../images/welcome_photo.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Kasia &amp; Jonathan</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<header id="main-header" role="banner">
+        <div>
+            <h1>Kasia &amp; Jonathan</h1>
+        </div>
 	</header>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(../images/events_bg.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Events</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Ceremony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>14:00</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>18/01/2025</span>
-									</div>
-									<p>At <b>The Church of Our Lady of the Assumption and the English Martyrs</b>.</p>
-                                    <iframe width="300" height="200" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi1wEzZtw2EcRiGSCuyRF0wo&key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s"></iframe>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Reception</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>~15:30</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>18/01/2025</span>
-									</div>
-									<p>At <b>Cambridge Union</b>, taxis will be provided to tranport you from OLEM church.</p>
-                                    <iframe width="300" height="200" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCdqiP75w2EcRqFWQ4AQgsuM&key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div id="events" class="section" style="background-image:url(/images/events_bg.jpg);">
+        <h2>Events</h2>
+        <div class="container">
+            <div class="box">
+                <h3>Ceremony</h3>
+                <div class="event">
+                    <i class="icon-clock"></i>
+                    <span>14:00</span>
+                </div>
+                <div class="event">
+                    <i class="icon-calendar"></i>
+                    <span>18/01/2025</span>
+                </div>
+                <p>At <b>The Church of Our Lady of the Assumption and the English Martyrs</b>.</p>
+                <address>
+                    <span>Our Lady & the English Martyrs</span>
+                    <span>Hills Road</span>
+                    <span class="postal-code">CB2 1JR</span>
+                </address>
+                <iframe class="map" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi1wEzZtw2EcRiGSCuyRF0wo&key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s"></iframe>
+            </div>
+            <div class="box">
+                <h3>Reception</h3>
+                <div class="event">
+                    <i class="icon-clock"></i>
+                    <span>~15:30</span>
+                </div>
+                <div class="event">
+                    <i class="icon-calendar"></i>
+                    <span>18/01/2025</span>
+                </div>
+                <p>At <b>Cambridge Union</b>, taxis will be provided to tranport you from OLEM church.
+                    <address>
+                        <span>9A Bridge St</span>
+                        <span>Cambridge</span>
+                        <span class="postal-code">CB2 1UB</span>
+                    </address>
+                    <iframe class="map" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCdqiP75w2EcRqFWQ4AQgsuM&key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s"></iframe>
+                </p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
 
-    <br>
-
-    <div class="fh5co-section"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-push-6 animate-box">
-				</div>
-				<div class="col-md-5 col-md-pull-5 animate-box">
-					
-					<div class="fh5co-contact-info">
-						<h3>Contact Information</h3>
-						<ul>
-							<li class="phone">+44 7532 094180</li>
-							<li class="email"><a href="mailto:kasiajonathan2025@gmail.com">kasiajonathan2025@gmail.com</a></li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
-	<footer id="fh5co-footer" role="contentinfo">
-
-	</footer>
-	</div>
-
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI-UZVjiXkLsp14fXMc4CpCBLRwnblE-s&libraries=maps,marker&v=beta"
-        defer
-    ></script>
+    <div id="contact" class="section" style="background-image:url(/images/rspv_bg.jpg);">
+        <h2>RSPV</h2>
+        <div class="container">
+            <div class="box">
+                <p>Please email us if you are coming to our wedding by 1st December. An email with be sent out nearer to the wedding in order for you to choose your food.</p>
+                <p>We're looking forward to hearing from you soon!</p>
+            </div>
+            <div class="box">
+                <ul>
+                    <li class="email"><a href="mailto:kasiajonathan2025@gmail.com">kasiajonathan2025@gmail.com</a></li>
+                    <li class="phone">+44 7541 661489 Kasia</li>
+                    <li class="phone">+44 7532 094180 Jonathan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
 
 	</body>
 </html>
