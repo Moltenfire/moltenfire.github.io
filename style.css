@@ -135,55 +135,8 @@ body {
     height: 200px;
 }
 
-#food .container {
-    /* border: 2px solid yellow; */
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    justify-content: center;
-}
-
-#food .course {
-    /* border: 2px solid red; */
-    width: 60%;
-    margin-bottom: 40px;
-    text-align: left;
-    /* display: flex; */
-    /* justify-content: center; */
-    display: inline-block
-}
-
-#food ol {
-    color: white;
-
-    li {
-        /* list-style: none; */
-        position: relative;
-    }
-}
-
-#food h3 {
-    font-family: "Work Sans", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0 0 20px 0;
-    color: white;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-
-    display: block;
-    letter-spacing: 2px;
-    opacity:initial;
-}
-
 #contact {
     flex: 1;
-    color: black;
-}
-
-#contact h2 {
-    font-family: "Work Sans", Arial, sans-serif;
-    font-size: 40px;
     color: black;
 }
 
@@ -196,6 +149,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    color: white
 }
 
 #contact .box {
