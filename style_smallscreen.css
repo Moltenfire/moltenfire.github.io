@@ -31,13 +31,9 @@
     margin: 0px
 }
 
-#food .container {
+#accommodation .container {
+    display: inline-block;
     margin: 0px
-}
-
-#food .course {
-    width: 80%;
-    margin-bottom: 20px;
 }
 
 #contact .container {

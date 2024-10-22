@@ -151,6 +151,27 @@ body {
     height: 200px;
 }
 
+#accommodation .container {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#accommodation .box {
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    max-width: 450px;
+
+    min-height: 1px;
+    padding: 30px;
+    margin: 15px;
+    /* background-color: rgba(255,255,255,0.05); */
+    flex: 1;
+}
+
+
 #contact {
     flex: 1;
     color: black;
