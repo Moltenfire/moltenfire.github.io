@@ -21,6 +21,11 @@
     height: 40px;
 }
 
+#flags .container {
+    display: inline-block;
+    margin: 0px
+}
+
 #events .container {
     display: inline-block;
     margin: 0px
